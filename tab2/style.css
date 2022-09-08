@@ -1,0 +1,150 @@
+.div-total {
+    background-color: rgb(189, 249, 7);
+    margin: 0 auto 50px auto;
+    max-width: 500px;
+  }
+  .form-con {
+    background-color: rgb(61, 232, 14);
+    display: block;
+      margin-bottom: 10px;
+      margin: 0 auto 50px auto;
+    max-width: 500px;
+  }
+  
+  .form-contro0 {
+      display: block;
+      margin-bottom: 10px;}
+  .form-contro1 {
+      display: block;
+      margin-bottom: 10px;
+  }
+  
+  .form-contro2 {
+      display: block;
+      margin-bottom: 10px;
+  }
+  .form-contro3 {
+      display: block;
+      margin-bottom: 10px;
+  }
+  .form-contro4 {
+      display: block;
+      margin-bottom: 10px;
+  }
+  .form-contro5 {
+      display: block;
+      margin-bottom: 10px;
+  }
+  .form-contro6 {
+      display: block;
+      margin-bottom: 10px;
+  }
+  .form-contro7 {
+      display: block;
+      margin-bottom: 10px;
+  }
+  .form-contro8 {
+      display: block;
+      margin-bottom: 10px;
+  }
+  .form-contro9 {
+      display: block;
+      margin-bottom: 10px;
+  }
+  .form-contro10 {
+      display: block;
+      margin-bottom: 10px;
+  }
+  .form-contro11 {
+      display: block;
+      margin-bottom: 10px;
+  }
+  .form-contro12 {
+      display: block;
+      margin-bottom: 10px;
+  }
+  .form-contro13 {
+      display: block;
+      margin-bottom: 10px;
+  }
+  .form-contro14 {
+      display: block;
+      margin-bottom: 10px;
+  }
+  .form-contro15 {
+      display: block;
+      margin-bottom: 10px;
+  }
+  .form-contro16 {
+      display: block;
+      margin-bottom: 10px;
+  }
+  .form-contro17 {
+      display: block;
+      margin-bottom: 10px;
+  }
+  .form-contro18 {
+      display: block;
+      margin-bottom: 10px;
+  }
+  
+  .form-contro19 {
+      display: block;
+      margin-bottom: 10px;
+  }
+  .form-contro20 {
+      display: block;
+      margin-bottom: 10px;
+  }
+  .form-contro21 {
+      display: block;
+      margin-bottom: 10px;
+  }
+  
+  .body {
+      width: 50%;
+      margin: auto;
+  }
+  .avatar {
+      width: 40%;
+      border-radius: 50%;
+      text-align: center;
+      margin: 20px auto;
+      display: block;
+  }
+  .iform-control[type="text"] {
+      
+      padding: 10px 15px;
+      width: 100%;
+      margin: 16px 0 16px;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      border-radius: 10px;
+      font-size: 14px;
+  }
+  .input[type="password"] { padding: 10px 15px;
+      width: 100%;
+      margin: 16px 0 16px;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      border-radius: 10px;
+      font-size: 14px;}
+  .button-form {
+          background-color: green;
+          color: white;
+          padding: 15px 20px;
+          margin: 8px 0 16px;
+          border: none;
+          cursor: pointer;
+          width: 100%;
+          border-radius: 10px;}
+      .cancel-button{
+          background-color: rgba(237, 12, 16, 0.806);
+      }
+        .Forgotpassword{
+          color: -webkit-link;
+          cursor: pointer;
+          text-decoration: underline;
+        }
