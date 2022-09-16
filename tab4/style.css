@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.description-info {
+    display: flex;
+    font-size: 12px;
+    justify-content: space-between;
+}
+.navbar {
+    position: fixed;
+    background-color: #fff;
+    border: 0;
+    box-shadow: 0 0 1px 0 rgb(0 0 0 / 50%);
+    height: 60px;
+    left: 0;
+    min-height: 40px;
+    padding: 10px;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+user agent stylesheet
+header {
+    display: block;
+}
+:host, :root {
+    --fa-style-family-classic: "Font Awesome 6 Free";
+    --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+}
+.container {
+    width: 1020px;
+    margin: auto;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+.pad-20-10 {
+    padding: 20px 10px;
+}
+.title-icon {
+    top: 8px;
+    font-size: 20px;
+    padding-left: 13px;
+    position: absolute;
+}
+.title-set h1 {
+    color: #333;
+    font-size: 25px;
+    cursor: pointer;
+    font-weight: 500;
+    margin-bottom: 5px;
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.episode-list, .news-list, .cartoon-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.pad-20-10 {
+    padding: 20px 10px;
+}
+.img-scale img {
+    height: 100%;
+    width: 100%;
+    transition: transform 0.3s;
+}
+.description-title {
+    font-size: 16px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.description-info {
+    display: flex;
+    font-size: 12px;
+    justify-content: space-between;
+}
+.button-play {
+    opacity: 0;
+    width: 60px;
+    height: 58px;
+    color: #fff;
+    font-size: 40px;
+    line-height: 60px;
+    position: absolute;
+    text-align: center;
+    visibility: hidden;
+    border-radius: 100%;
+    box-shadow: 0 0 10px #fff;
+    background: rgba(0, 0, 0, 0.6);
+    transition: opacity 0.3s, visibility 0.3s;
+}
+
+.episode-items {
+  position: relative;
+}
+
+.episode-description {
+  position: relative;
+  bottom: 40px;
+}
+
+.license-items {
+  position: relative;
+}
+
+.license-description {
+  position: relative;
+  bottom: 40px;
+}
+.description-info {
+    display: flex;
+    font-size: 12px;
+    justify-content: space-between;
+}
+.description-title {
+    font-size: 16px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.title-set,
+.title-set {
+    padding: 0 15px;
+    margin-bottom: 15px;
+}
+.title-set {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.rank-info {
+    font-size: 16px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.rank-title {
+    padding: 4px;
+}
+.rank-title,
+.rank-top {
+    padding: 0 15px;
+    margin-bottom: 15px;
+    display: flex;
+    font-size: 12px;
+    justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    
+}
+.coming {
+    top: 10px;
+    left: 10px;
+    width: 60px;
+    height: 58px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 8px;
+    position: absolute;
+    text-align: center;
+    display: block;
+    border-radius: 100%;
+    box-shadow: 0 0 10px #fff;
+    background: rgba(216, 15, 22, 0.6);
+}
+.more p {
+    left: 0;
+    right: 0;
+    cursor: pointer;
+    font-size: 0.8rem;
+    padding: 6px 18px;
+    border-radius: 3px;
+    display: inline-block;
+    background-color: #d80f16;
+}
+.p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.pad-20-10 {
+    padding: 20px 10px;
+}
+.img-scale img, .episode-img img, .license-img {
+    height: 100%;
+    width: 100%;
+    transition: transform 0.3s;
+}
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+.more {
+    text-align: center;
+}
+.manga-meta {
+    top: 10px;
+    left: 10px;
+    color: #fff;
+    padding: 0 5px;
+    font-size: 12px;
+    border-radius: 4px;
+    border: 1px solid #fff;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.episode-list, .news-list, .cartoon-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+a {
+    color: #ccc;
+    text-decoration: none;
+}

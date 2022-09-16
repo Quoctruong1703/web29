@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ <link rel="stylesheet" href="./style.css"/>
+ <style>
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    .img{
+        max-width: 100%;
+        height: auto;
+        vertical-align: middle;
+
+    }
+    .movi {
+        position: relative;
+    }
+    .btn-play,
+    .movi-info{
+        position: absolute;
+
+    }
+    .movi-lite{
+        left: 10px;
+        top: 15px;
+    
+    }
+
+    .btn-play {
+        top: 5px;
+        left: 5px;
+    }
+    .movi-info {
+        left: 0;
+        top: 0;
+        bottom: 0;
+        color: aliceblue;
+        padding: 30px 15px 10px;
+    }
+    .her{
+        margin-top: 100px;
+        margin-left: 100px;
+        transform: rotate(45);
+
+    }
+    .circle{
+        margin-top: 100px;
+        margin-left: 100px;
+    }
+.her,
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+}
+.her{
+    position: relative;
+}
+.heart:hover {
+    background-color: aquamarine;
+}
+.heart:hover ,circle {
+    background-color: blueviolet;
+}
+.circle {
+border-radius: 50%;
+position: absolute;
+}
+.circle.top{
+    bottom: 50px;
+}
+.circle.left {
+    right: 50px;
+}
+.container {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.menu {
+display: flex;
+list-style: none;
+
+}
+.menu-iten{
+    flex: 1;
+}
+.menu-link {
+    
+}
+
+ </style>
+ 
+
+</head>
+<body>
+
+<div class="heart">
+    </div>
+    <div class="circle top">
+
+    </div>
+    <div class="circle left">
+        <div class="name">...</div>
+
+    </div>
+</div>
+</body>
+<nav class="nav">
+    <ul class="menu">
+        <li class="menu-item">
+            <a href="" class="menu-link">home</a>
+        </li>
+        <li class="menu-item">
+            <a href="" class="menu-link">about</a>
+        </li>
+    
+        <li class="menu-item">
+            <a href="" class="menu-link">portfolio</a>
+        </li>
+   
+        <li class="menu-item">
+            <a href="" class="menu-link">blog</a>
+        </li>
+    
+        <li class="menu-item">
+            <a href="" class="menu-link">categories</a>
+        </li>
+    
+        <li class="menu-item">
+            <a href="" class="menu-link">contact</a>
+        </li>
+        <li class="menu-item">
+            <a href="" class="menu-link">contact</a>
+        </li>
+        <li class="menu-item">
+            <a href="" class="menu-link">contact</a>
+        </li>
+    </ul>
+</nav>
+</body>
+</html>
